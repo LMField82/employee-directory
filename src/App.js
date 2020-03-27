@@ -1,15 +1,10 @@
 import React from 'react';
-import Wrapper from './components/Wrapper';
-import Header from './components/Header';
+import SearchContainer from './components/SearchContainer'
 
 function App() {
   return (
     <div>
-      <Wrapper >
-        <Header />
-
-       
-      </Wrapper>
+      <SearchContainer />
     </div>
   );
 }
