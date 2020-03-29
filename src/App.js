@@ -1,12 +1,17 @@
 import React from 'react';
-import SearchContainer from './components/SearchContainer'
+import Wrapper from "./components/Wrapper"
+import Nav from "./components/Nav"
+import Main from "./components/Main"
+
 
 function App() {
   return (
-    <div>
-      <SearchContainer />
-    </div>
-  );
+    <div>  
+      <Wrapper> 
+          <Main />
+      </Wrapper>
+    </div>  
+      )
 }
 
 export default App;

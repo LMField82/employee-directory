@@ -1,17 +1,15 @@
-import React from "react";
-import DataArea from "./DataArea";
-// import SearchBar from "./SearchBar";
-// import { render } from "@testing-library/react";
+import React, {Component} from "react";
+import SearchContainer from "./SearchContainer";
 
-function Main() {
-    
+
+export default class Main extends Component {
+    render() {
         return (
-            <div>
-                <DataArea />
-            </div>
+        <>
+        <SearchContainer />
+        </>
         )
-    
+    }
 }
 
 
-export default Main;

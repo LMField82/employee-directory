@@ -1,10 +1,10 @@
 import React from "react";
-import DataTable from "./DataTable";
+import DataBody from "./DataBody";
 
 function DataArea() {
     return (
         <div>
-            Table goes here
+            <DataBody />
         </div>
     )
 
