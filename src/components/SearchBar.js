@@ -1,5 +1,6 @@
 import React from 'react';
-//import css files here
+import "../../src/styles/App.css";
+
 
 function SearchBar({ handleSearchChange, handleFormSubmit }) {
     return(

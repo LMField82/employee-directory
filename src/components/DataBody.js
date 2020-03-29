@@ -19,7 +19,7 @@ function DataBody({users}) {
                 <tr key={login.uuid}>
                    <td data-th="Image" className="align-middle">
                        <img 
-                        src={picture.thumbnail}
+                        src={picture.medium}
                         alt={"profile image for " + name.first + " " + name.last}
                         className="img-responsive"
                         />

@@ -1,12 +1,12 @@
 import React from "react";
 import DataBody from "./DataBody";
+import "../../src/styles/App.css";
 
-// import css 
 
 function DataTable({ headings, users, handleSort }) {
     return (
         <div>
-            <table id="table">
+            <table id="table" className="table table-striped">
                 <thead>
                     <tr>
                        { headings.map(({ name, width }) => {
@@ -15,11 +15,9 @@ function DataTable({ headings, users, handleSort }) {
                                key={name}
                                style={{ width }}
                                onClick={() => {
-                                   handleSort(name.toLowerCase());
-                               }}
-                               >
+                                   handleSort(name.toLowerCase())
+                               }}scope="col"><i class="fas fa-arrows-alt-v"></i>
                                 {name}
-                                <span className="pointer"></span>
                                </th>
                            )
                        })} 

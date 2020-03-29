@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-
 import API from '../utils/API';
-
 import DataTable from './DataTable'
+import "../../src/styles/App.css";
 
 class SearchContainer extends Component {
     state = {
@@ -16,17 +15,13 @@ class SearchContainer extends Component {
 
     headings = [
         {name: "Image", width: "10%"},
-        {name: "Name", width: "20%"},
-        {name: "Phone", width: "20%"},
-        {name: "Email", width: "10%"},
+        {name: "Name", width: "15%"},
+        {name: "Phone", width: "15%"},
+        {name: "Email", width: "20%"},
         {name: "DOB", width: "10%"},
     ]
 
-    // searchEmployees = () => {
-    //     API.getUsers()
-    //       .then(res => this.setState({ result: res.data }))
-    //       .catch(err => console.log(err));
-    //   };
+    
 
     handleSort = (heading) => {
         if (this.state.order === "descend") {
