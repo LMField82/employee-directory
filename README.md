@@ -15,4 +15,4 @@ Or visit the deployed site at:
 
 ## Image
 
-![Employee Directory](images/EmployeeDirectory.png)
+![Employee Directory](/image/EmployeeDirectory.png)
