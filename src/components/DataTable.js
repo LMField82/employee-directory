@@ -16,7 +16,7 @@ function DataTable({ headings, users, handleSort }) {
                                style={{ width }}
                                onClick={() => {
                                    handleSort(name.toLowerCase())
-                               }}scope="col"><i class="fas fa-arrows-alt-v"></i>
+                               }}scope="col"><i className="fas fa-arrows-alt-v"></i>
                                 {name}
                                </th>
                            )

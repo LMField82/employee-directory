@@ -37,7 +37,9 @@ function DataBody({users}) {
           })
       ) : (
           <>
-            <h3>No results to display</h3>
+            <h3>
+                No Results Found
+            </h3>
         </>
       )} 
   </tbody>
